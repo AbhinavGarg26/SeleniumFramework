@@ -1,5 +1,8 @@
-package utils.listeners;
+package com.framework.utils.listeners;
 
+import com.framework.utils.excelutils.ExcelUtil;
+import com.framework.utils.extentreports.ExtentManager;
+import com.framework.utils.extentreports.ExtentTestManager;
 import com.relevantcodes.extentreports.LogStatus;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
@@ -9,9 +12,6 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import tests.BaseTest;
-import utils.excelutils.ExcelUtil;
-import utils.extentreports.ExtentManager;
-import utils.extentreports.ExtentTestManager;
 
 
 public class TestListener extends BaseTest implements ITestListener {

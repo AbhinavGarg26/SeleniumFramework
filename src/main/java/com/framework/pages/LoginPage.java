@@ -1,4 +1,4 @@
-package pages;
+package com.framework.pages;
 
 import io.qameta.allure.Step;
 import org.apache.poi.xssf.usermodel.XSSFRow;

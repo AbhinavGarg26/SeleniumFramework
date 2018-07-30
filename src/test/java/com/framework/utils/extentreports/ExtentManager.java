@@ -1,4 +1,4 @@
-package utils.extentreports;
+package com.framework.utils.extentreports;
 
 import org.openqa.selenium.Platform;
 

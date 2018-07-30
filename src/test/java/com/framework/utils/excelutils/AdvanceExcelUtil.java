@@ -1,22 +1,26 @@
-package utils.excelutils;
+package com.framework.utils.excelutils;
 
-import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.Platform;
+import static tests.BaseTest.testDataExcelFileName;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import static tests.BaseTest.testDataExcelFileName;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.openqa.selenium.Platform;
 
 /**
  * Created by Abhinav.
  */
-public class ExcelUtil {
+public class AdvanceExcelUtil {
     //Main Directory of the project
     public static final String currentDir = System.getProperty("user.dir");
 
@@ -24,16 +28,19 @@ public class ExcelUtil {
     public static String testDataExcelPath = null;
 
     //Excel WorkBook
-    private static XSSFWorkbook excelWBook;
+    private static Workbook excelWBook;
 
     //Excel Sheet
-    private static XSSFSheet excelWSheet;
+    private static Sheet excelWSheet;
 
     //Excel cell
-    private static XSSFCell cell;
+    private static Cell cell;
+    
+    //Excel cell
+    private static Cell cellSheet;
 
     //Excel row
-    private static XSSFRow row;
+    private static Row row;
 
     //Row Number
     public static int rowNumber;
@@ -70,8 +77,11 @@ public class ExcelUtil {
         try {
             // Open the Excel file
             FileInputStream ExcelFile = new FileInputStream(testDataExcelPath + testDataExcelFileName);
-            excelWBook = new XSSFWorkbook(ExcelFile);
-            excelWSheet = excelWBook.getSheet(sheetName);
+            excelWBook = new HSSFWorkbook(ExcelFile);
+            Sheet excelWSheet = excelWBook.createSheet("TestCaseData");
+            Row row = excelWSheet.createRow(0);
+            cell = row.createCell(0);
+            cellSheet = row.createCell(1);
         } catch (Exception e) {
             try {
                 throw (e);
@@ -95,7 +105,7 @@ public class ExcelUtil {
     }
 
     //This method takes row number as a parameter and returns the data of given row number.
-    public static XSSFRow getRowData(int RowNum) {
+    public static Row getRowData(int RowNum) {
         try {
             row = excelWSheet.getRow(RowNum);
             return row;

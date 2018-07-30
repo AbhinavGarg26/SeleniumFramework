@@ -1,14 +1,18 @@
 package tests;
 
 import io.qameta.allure.*;
+
+import java.util.HashMap;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.HomePage;
-import pages.LoginPage;
-import utils.excelutils.ExcelUtil;
-import utils.extentreports.ExtentTestManager;
-import utils.listeners.TestListener;
+
+import com.framework.pages.HomePage;
+import com.framework.pages.LoginPage;
+import com.framework.utils.excelutils.ExcelUtil;
+import com.framework.utils.extentreports.ExtentTestManager;
+import com.framework.utils.listeners.TestListener;
 
 
 
@@ -23,7 +27,9 @@ public class LoginTests extends BaseTest {
     public void setupTestData () {
         //Set Test Data Excel and Sheet
         System.out.println("************Setup Test Level Data**********");
-        ExcelUtil.setExcelFileSheet("LoginData");
+        ExcelUtil.setExcelFileSheet("TestCaseData");
+        
+        ExcelUtil.hashMapTestData = ExcelUtil.fetchTestCaseInformation();
     }
 
     @Test (priority = 0, description="Invalid Login Scenario with wrong username and password.")

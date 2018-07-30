@@ -1,4 +1,4 @@
-package utils.extentreports;
+package com.framework.utils.extentreports;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
