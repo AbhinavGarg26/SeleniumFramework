@@ -10,6 +10,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+target/
+
+test-output/
+
+allure-results/
+
 # Package Files #
 *.jar
 *.war
