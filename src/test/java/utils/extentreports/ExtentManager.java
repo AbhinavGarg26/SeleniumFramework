@@ -1,8 +1,10 @@
 package utils.extentreports;
 
+import org.openqa.selenium.Platform;
+
 import com.relevantcodes.extentreports.ExtentReports;
 
-//OB: extentreports extent instance created here. That instance can be reachable by getReporter() method.
+//AG: extentreports extent instance created here. That instance can be reachable by getReporter() method.
 
 public class ExtentManager {
 
@@ -12,7 +14,13 @@ public class ExtentManager {
         if(extent == null){
             //Set HTML reporting file location
             String workingDir = System.getProperty("user.dir");
-            extent = new ExtentReports(workingDir+"\\extentreports\\ExtentReportResults.html", true);
+            String fullPath = "";
+            if (Platform.getCurrent().toString().equalsIgnoreCase("MAC")) {
+            		fullPath = workingDir + "/extentreports/ExtentReportResults.html";
+            } else if (Platform.getCurrent().toString().contains("WIN")) {
+            		fullPath = workingDir + "\\extentreports\\ExtentReportResults.html";
+            }
+            extent = new ExtentReports(fullPath, true);
         }
         return extent;
     }

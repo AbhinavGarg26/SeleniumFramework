@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="N11 Test Suite" duration-ms="55039" started-at="2018-07-30T18:00:33Z" finished-at="2018-07-30T18:01:28Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="55039" started-at="2018-07-30T18:00:33Z" finished-at="2018-07-30T18:01:28Z">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:tests.LoginTests@3b220bcb]" name="setupTestData" is-config="true" duration-ms="2253" started-at="2018-07-30T23:30:33Z" finished-at="2018-07-30T23:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@3b220bcb]" name="setup" is-config="true" duration-ms="6325" started-at="2018-07-30T23:30:35Z" description="Class Level Setup!" finished-at="2018-07-30T23:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLoginTest_InvalidUserNameInvalidPassword()[pri:0, instance:tests.LoginTests@3b220bcb]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="32363" started-at="2018-07-30T23:30:41Z" description="Invalid Login Scenario with wrong username and password." finished-at="2018-07-30T23:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
+        <test-method status="PASS" signature="invalidLoginTest_EmptyUserEmptyPassword()[pri:1, instance:tests.LoginTests@3b220bcb]" name="invalidLoginTest_EmptyUserEmptyPassword" duration-ms="13102" started-at="2018-07-30T23:31:14Z" description="Invalid Login Scenario with empty username and password." finished-at="2018-07-30T23:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_EmptyUserEmptyPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@3b220bcb]" name="teardown" is-config="true" duration-ms="305" started-at="2018-07-30T23:31:28Z" description="Class Level Teardown!" finished-at="2018-07-30T23:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- N11 Test Suite -->
+</testng-results>

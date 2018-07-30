@@ -1,0 +1,637 @@
+# Created on 2018-07-29T18:59:07.863
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-07-29T18:59:19.356
+Unexpected IOException with stream: I am in onTestSuccess method invalidLoginTest_InvalidUserNameInvalidPassword succeed
+
+
+# Created on 2018-07-29T18:59:19.746
+Unexpected IOException with stream: I am in onTestSuccess method invalidLoginTest_InvalidUserNameInvalidPassword succeed
+
+
+# Created on 2018-07-29T18:59:20.325
+Unexpected IOException: 6,1,tests.LoginTests,invalidLoginTest_InvalidUserNameInvalidPassword(tests.LoginTests),null,null,null
+
+
+# Created on 2018-07-29T18:59:20.329
+Unexpected IOException with stream: I am in onTestStart method invalidLoginTest_EmptyUserEmptyPassword start
+
+
+# Created on 2018-07-29T18:59:20.330
+Unexpected IOException with stream: I am in onTestStart method invalidLoginTest_EmptyUserEmptyPassword start
+
+
+# Created on 2018-07-29T18:59:25.336
+Unexpected IOException: 5,1,tests.LoginTests,invalidLoginTest_EmptyUserEmptyPassword(tests.LoginTests),tests.LoginTests,null,null
+
+
+# Created on 2018-07-29T18:59:25.717
+Unexpected IOException with stream: I am in onTestFailure method invalidLoginTest_EmptyUserEmptyPassword failed
+
+
+# Created on 2018-07-29T18:59:25.718
+Unexpected IOException with stream: Screenshot captured for test case:invalidLoginTest_EmptyUserEmptyPassword
+
+
+# Created on 2018-07-29T18:59:25.881
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Abhinavs-MacBook-Air.local', ip: 'fe80:0:0:0:18dd:7666:5394:4c08%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53668}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db), userDataDir=/var/folders/30/kqphx9cx3b14_f8dsfyvjspw0000gn/T/.org.chromium.Chromium.g2vIpu}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.75, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 86b9f4a725dd1f1a4971ff6793f94979
+
+# Created on 2018-07-29T18:59:25.882
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.883
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2018-07-29T18:59:25.884
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.885
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2018-07-29T18:59:25.886
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.887
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2018-07-29T18:59:25.888
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.889
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created on 2018-07-29T18:59:25.890
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.891
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created on 2018-07-29T18:59:25.893
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.894
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created on 2018-07-29T18:59:25.894
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.895
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created on 2018-07-29T18:59:25.897
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.898
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+
+# Created on 2018-07-29T18:59:25.899
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.900
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+
+# Created on 2018-07-29T18:59:25.902
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.903
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+
+# Created on 2018-07-29T18:59:25.904
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.905
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created on 2018-07-29T18:59:25.910
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.922
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+
+# Created on 2018-07-29T18:59:25.923
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.925
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+
+# Created on 2018-07-29T18:59:25.926
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.927
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+
+# Created on 2018-07-29T18:59:25.928
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.929
+Unexpected IOException with stream: 	at utils.listeners.TestListener.saveScreenshotPNG(TestListener.java:26)
+
+# Created on 2018-07-29T18:59:25.930
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.931
+Unexpected IOException with stream: 	at utils.listeners.TestListener.onTestFailure(TestListener.java:82)
+
+# Created on 2018-07-29T18:59:25.932
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.933
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1731)
+
+# Created on 2018-07-29T18:59:25.934
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.935
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+
+# Created on 2018-07-29T18:59:25.936
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.937
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1250)
+
+# Created on 2018-07-29T18:59:25.938
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.939
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+
+# Created on 2018-07-29T18:59:25.940
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.941
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created on 2018-07-29T18:59:25.942
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.943
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+
+# Created on 2018-07-29T18:59:25.943
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.944
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:602)
+
+# Created on 2018-07-29T18:59:25.945
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.946
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+
+# Created on 2018-07-29T18:59:25.947
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.948
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+
+# Created on 2018-07-29T18:59:25.949
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.952
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+
+# Created on 2018-07-29T18:59:25.954
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.955
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+
+# Created on 2018-07-29T18:59:25.955
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.957
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2018-07-29T18:59:25.957
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.959
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2018-07-29T18:59:25.961
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.961
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+
+# Created on 2018-07-29T18:59:25.962
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.964
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+
+# Created on 2018-07-29T18:59:25.964
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.966
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1144)
+
+# Created on 2018-07-29T18:59:25.967
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.969
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1115)
+
+# Created on 2018-07-29T18:59:25.970
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.971
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created on 2018-07-29T18:59:25.972
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.972
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created on 2018-07-29T18:59:25.973
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.974
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created on 2018-07-29T18:59:25.976
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.977
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2018-07-29T18:59:25.978
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.979
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2018-07-29T18:59:25.980
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.981
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2018-07-29T18:59:25.984
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:25.985
+Unexpected IOException with stream: I am in onTestFailure method invalidLoginTest_EmptyUserEmptyPassword failed
+
+
+# Created on 2018-07-29T18:59:25.988
+Unexpected IOException with stream: Screenshot captured for test case:invalidLoginTest_EmptyUserEmptyPassword
+
+
+# Created on 2018-07-29T18:59:26.145
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Abhinavs-MacBook-Air.local', ip: 'fe80:0:0:0:18dd:7666:5394:4c08%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53668}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db), userDataDir=/var/folders/30/kqphx9cx3b14_f8dsfyvjspw0000gn/T/.org.chromium.Chromium.g2vIpu}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.75, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 86b9f4a725dd1f1a4971ff6793f94979
+
+# Created on 2018-07-29T18:59:26.147
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.148
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2018-07-29T18:59:26.149
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.152
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2018-07-29T18:59:26.155
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.157
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2018-07-29T18:59:26.158
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.162
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created on 2018-07-29T18:59:26.164
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.166
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created on 2018-07-29T18:59:26.167
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.171
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created on 2018-07-29T18:59:26.172
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.173
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created on 2018-07-29T18:59:26.175
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.177
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+
+# Created on 2018-07-29T18:59:26.178
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.179
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+
+# Created on 2018-07-29T18:59:26.180
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.183
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+
+# Created on 2018-07-29T18:59:26.184
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.187
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created on 2018-07-29T18:59:26.189
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.190
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+
+# Created on 2018-07-29T18:59:26.192
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.193
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+
+# Created on 2018-07-29T18:59:26.197
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.207
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+
+# Created on 2018-07-29T18:59:26.208
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.216
+Unexpected IOException with stream: 	at utils.listeners.TestListener.saveScreenshotPNG(TestListener.java:26)
+
+# Created on 2018-07-29T18:59:26.217
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.218
+Unexpected IOException with stream: 	at utils.listeners.TestListener.onTestFailure(TestListener.java:82)
+
+# Created on 2018-07-29T18:59:26.219
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.220
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1731)
+
+# Created on 2018-07-29T18:59:26.220
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.221
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+
+# Created on 2018-07-29T18:59:26.225
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.226
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1250)
+
+# Created on 2018-07-29T18:59:26.227
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.227
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+
+# Created on 2018-07-29T18:59:26.230
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.230
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created on 2018-07-29T18:59:26.231
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.233
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+
+# Created on 2018-07-29T18:59:26.234
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.235
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:602)
+
+# Created on 2018-07-29T18:59:26.236
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.237
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+
+# Created on 2018-07-29T18:59:26.238
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.238
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+
+# Created on 2018-07-29T18:59:26.240
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.241
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+
+# Created on 2018-07-29T18:59:26.242
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.242
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+
+# Created on 2018-07-29T18:59:26.244
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.244
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2018-07-29T18:59:26.246
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.246
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2018-07-29T18:59:26.248
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.250
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+
+# Created on 2018-07-29T18:59:26.250
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.251
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+
+# Created on 2018-07-29T18:59:26.252
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.252
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1144)
+
+# Created on 2018-07-29T18:59:26.253
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.254
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1115)
+
+# Created on 2018-07-29T18:59:26.255
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.256
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created on 2018-07-29T18:59:26.257
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.257
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created on 2018-07-29T18:59:26.259
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.259
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created on 2018-07-29T18:59:26.260
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.261
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2018-07-29T18:59:26.262
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.263
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2018-07-29T18:59:26.264
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.266
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2018-07-29T18:59:26.267
+Unexpected IOException with stream: 
+
+
+# Created on 2018-07-29T18:59:26.409
+Unexpected IOException: 8,1,tests.LoginTests,invalidLoginTest_EmptyUserEmptyPassword(tests.LoginTests),null,no such window: window was already closed\000A  (Session info: chrome=68.0.3440.75)\000A  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db)\002Cplatform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Abhinavs-MacBook-Air.local'\002C ip: 'fe80:0:0:0:18dd:7666:5394:4c08%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=MAC\002C acceptSslCerts=false\002C goog:chromeOptions={debuggerAddress=localhost:53668}\002C acceptInsecureCerts=false\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=MAC\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db)\002C userDataDir=/var/folders/30/kqphx9cx3b14_f8dsfyvjspw0000gn/T/.org.chromium.Chromium.g2vIpu}\002C takesHeapSnapshot=true\002C unhandledPromptBehavior=\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C version=68.0.3440.75\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: 86b9f4a725dd1f1a4971ff6793f94979,null,no such window: window was already closed\000A  (Session info: chrome=68.0.3440.75)\000A  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db)\002Cplatform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Abhinavs-MacBook-Air.local'\002C ip: 'fe80:0:0:0:18dd:7666:5394:4c08%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=MAC\002C acceptSslCerts=false\002C goog:chromeOptions={debuggerAddress=localhost:53668}\002C acceptInsecureCerts=false\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=MAC\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db)\002C userDataDir=/var/folders/30/kqphx9cx3b14_f8dsfyvjspw0000gn/T/.org.chromium.Chromium.g2vIpu}\002C takesHeapSnapshot=true\002C unhandledPromptBehavior=\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C version=68.0.3440.75\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: 86b9f4a725dd1f1a4971ff6793f94979,LoginTests.invalidLoginTest_EmptyUserEmptyPassword \00BB NoSuchWindow no such wind...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: window was already closed\000A  (Session info: chrome=68.0.3440.75)\000A  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db)\002Cplatform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Abhinavs-MacBook-Air.local'\002C ip: 'fe80:0:0:0:18dd:7666:5394:4c08%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=MAC\002C acceptSslCerts=false\002C goog:chromeOptions={debuggerAddress=localhost:53668}\002C acceptInsecureCerts=false\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=MAC\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db)\002C userDataDir=/var/folders/30/kqphx9cx3b14_f8dsfyvjspw0000gn/T/.org.chromium.Chromium.g2vIpu}\002C takesHeapSnapshot=true\002C unhandledPromptBehavior=\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C version=68.0.3440.75\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: 86b9f4a725dd1f1a4971ff6793f94979\000A
+
+
+# Created on 2018-07-29T18:59:26.655
+Unexpected IOException with stream: I am in onFinish method LoginTest
+
+
+# Created on 2018-07-29T18:59:33.274
+Unexpected IOException with stream: I am in onFinish method LoginTest
+
+
