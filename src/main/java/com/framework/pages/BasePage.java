@@ -28,4 +28,6 @@ public class BasePage {
     public String readText (By elementLocation) {
         return driver.findElement(elementLocation).getText();
     }
+    
+    
 }

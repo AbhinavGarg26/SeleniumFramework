@@ -1,11 +1,12 @@
 package com.framework.pages;
 
-import io.qameta.allure.Step;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import com.framework.utility.Utility;
+
+import io.qameta.allure.Step;
 
 public class LoginPage extends BasePage {
 
@@ -14,34 +15,27 @@ public class LoginPage extends BasePage {
         super(driver, wait);
     }
 
-    //*********Web Elements*********
-    String usenameId = "email";
-    String passwordId = "password";
-    String loginButtonId = "loginButton";
-    String errorMessageUsernameXpath = "//*[@id=\"loginForm\"]/div[1]/div/div";
-    String errorMessagePasswordXpath = "//*[@id=\"loginForm\"]/div[2]/div/div ";
-
     //*********Page Methods*********
     @Step("Login Step with username: {0}, password: {1}, for method: {method} step...")
-    public void loginToN11 (XSSFRow row){
+    public void loginToN11 (String userName, String password){
         //Enter Username(Email)
-        writeText(By.id(usenameId),row.getCell(1).toString());
+        writeText(Utility.getLocator("or", "usenameId"),userName);
         //Enter Password
-        writeText(By.id(passwordId), row.getCell(2).toString());
+        writeText(Utility.getLocator("or", "passwordId"), password);
         //Click Login Button
-        click(By.id(loginButtonId));
+        click(Utility.getLocator("or", "loginButtonId"));
     }
 
     //Verify Username Condition
     @Step("Verify username: {0} step...")
     public void verifyLoginUserName (String expectedUserNameMessage) {
-        Assert.assertEquals(readText(By.xpath(errorMessageUsernameXpath)), expectedUserNameMessage);
+        Assert.assertEquals(readText(Utility.getLocator("or", "errorMessageUsernameXpath")), expectedUserNameMessage);
     }
 
     //Verify Password Condition
     @Step("Verify verifyLoginPassword: {0} step...")
     public void verifyLoginPassword (String expectedPasswordMessage) {
-        Assert.assertEquals(readText(By.xpath(errorMessagePasswordXpath)), expectedPasswordMessage);
+        Assert.assertEquals(readText(Utility.getLocator("or", "errorMessagePasswordXpath")), expectedPasswordMessage);
     }
 
 }

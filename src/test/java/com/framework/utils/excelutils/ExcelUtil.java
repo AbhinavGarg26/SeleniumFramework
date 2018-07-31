@@ -77,7 +77,6 @@ public class ExcelUtil {
             FileInputStream ExcelFile = new FileInputStream(testDataExcelPath + testDataExcelFileName);
             excelWBook = new XSSFWorkbook(ExcelFile);
             excelWSheet = excelWBook.getSheet(sheetName);
-            excelWSheet = excelWBook.getSheet("LoginData");
         } catch (Exception e) {
             try {
                 throw (e);
@@ -93,24 +92,28 @@ public class ExcelUtil {
 	 */
 	public static HashMap<String, HashMap<String, String>> fetchTestCaseInformation() {
 		HashMap<String, HashMap<String, String>> hashMapTestData = new HashMap<String, HashMap<String, String>>();
-		HashMap<String, String> hashMapData = new HashMap<String, String>();
 		ArrayList<String> array = new ArrayList<String>();
 		DataFormatter formatter = new DataFormatter();
 		try {
 			int noOfColumns = excelWSheet.getRow(0).getLastCellNum();
 			int noOfRows = excelWSheet.getPhysicalNumberOfRows();
 			for(int i = 1; i < noOfColumns; i++ ) {
-				array.add(formatter.formatCellValue(excelWSheet.getRow(0).getCell(i)));
+				String data = formatter.formatCellValue(excelWSheet.getRow(0).getCell(i));
+				array.add(data.trim());
 			}
 			
 			for(int i = 1; i < noOfRows; i++ ) {
-				hashMapData.clear();
+				HashMap<String, String> hashMapData = new HashMap<String, String>();
+				String testCaseName = formatter.formatCellValue(excelWSheet.getRow(i).getCell(0));
+				if(testCaseName.length() <= 0)
+					break;
 				int j = 1;
+				hashMapData.put("RowNumber", String.valueOf(i));
 				for(String data : array) {
-					hashMapData.put(data, formatter.formatCellValue(excelWSheet.getRow(i).getCell(j)));
+					String cellValue = formatter.formatCellValue(excelWSheet.getRow(i).getCell(j));
+					hashMapData.put(data, cellValue);
 					j++;
 				}
-				String testCaseName = formatter.formatCellValue(excelWSheet.getRow(i).getCell(0));
 				hashMapTestData.put(testCaseName, hashMapData);
 			}
         } catch (Exception e) {

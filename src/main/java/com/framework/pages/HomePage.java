@@ -1,9 +1,12 @@
 package com.framework.pages;
 
-import io.qameta.allure.Step;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.framework.utility.Utility;
+
+import io.qameta.allure.Step;
+import tests.BaseTest;
 
 public class HomePage extends BasePage {
 
@@ -13,10 +16,7 @@ public class HomePage extends BasePage {
     }
 
     //*********Page Variables*********
-    String baseURL = "http://www.n11.com/";
-
-    //*********Web Elements*********
-    String signInButtonClass = "btnSignIn";
+    String baseURL = BaseTest.CONFIG.getProperty("testsiteURL");
 
 
     //*********Page Methods*********
@@ -31,7 +31,7 @@ public class HomePage extends BasePage {
     //Go to LoginPage
     @Step("Go to Login Page Step...")
     public void goToLoginPage (){
-        click(By.className(signInButtonClass));
+        click(Utility.getLocator("or", "signInButtonClass"));
     }
 
 }
